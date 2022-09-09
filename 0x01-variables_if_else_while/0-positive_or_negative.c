@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - (A random number to the variable n each time it is executed.)
+ * Main - A random number to the variable n each time it is executed.
  *
  * if the number is greater than 0: is positive
  * if the number is 0: is zero
@@ -29,5 +29,5 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	return 0;
+	return (0);
 }
