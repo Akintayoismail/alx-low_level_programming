@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * The prototypes of all your functions and the prototype of the function _putchar
+ * main- prints putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
