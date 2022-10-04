@@ -1,16 +1,4 @@
-n the first word of a string
- * @str: a string
- * Return: the length of the word
- */
-unsigned int countchars(char *str)
-{
-	if (_isspace(*str) || !*str)
-		return (0);
-	return (1 + countchars(str + 1));
-}
-
-/**
- * countwords - count how wany words are i#include "main.h"
+#include "main.h"
 
 /**
  * _isspace - checks if a char is a whitespace
@@ -37,7 +25,19 @@ char *nextword(char *str)
 }
 
 /**
- * countchars - count the charan a string
+ * countchars - count the character in the first word of a string
+ * @str: a string
+ * Return: the length of the word
+ */
+unsigned int countchars(char *str)
+{
+	if (_isspace(*str) || !*str)
+		return (0);
+	return (1 + countchars(str + 1));
+}
+
+/**
+ * countwords - count how wany words are in a string
  * @str: a string
  * Return: the number of words in the string
  */
