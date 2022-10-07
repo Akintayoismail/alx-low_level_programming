@@ -1,17 +1,4 @@
- char into it's appropriate int value
- * @n: the char to be converted
- * Return: an integer
- */
-int toint(char n)
-{
-	return (((int)n) - 48);
-}
-
-/**
- * mul - multiply integers in strings
- * @num1: first integer
- * @num2: second integer
- * @result: a bu#include <string.h>
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 
