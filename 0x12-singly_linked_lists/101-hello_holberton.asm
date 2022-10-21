@@ -1,4 +1,4 @@
-/* My first assembly language program */
+; My first assembly language program
 
 extern printf
 
